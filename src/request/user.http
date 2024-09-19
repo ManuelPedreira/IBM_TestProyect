@@ -1,0 +1,19 @@
+POST http://localhost:5000/user/register
+Content-Type: application/json
+
+{
+  "username" : "user123",
+  "password" : "pass123"
+}
+
+###
+POST http://localhost:5000/user/login
+Content-Type: application/json
+
+{
+  "username" : "user123",
+  "password" : "pass123"
+}
+
+### 
+GET http://localhost:5000/user/

@@ -1,0 +1,19 @@
+GET http://localhost:5000/book/
+###
+GET http://localhost:5000/book/isbn/1
+###
+GET http://localhost:5000/book/author/tolkien
+###
+GET http://localhost:5000/book/title/time
+###
+GET http://localhost:5000/book/reviews/1
+###
+POST http://localhost:5000/book/reviews/1
+Content-Type: application/json
+
+{
+  "review" : "Awesome Book!"
+}
+###
+DELETE http://localhost:5000/book/reviews/1
+###
